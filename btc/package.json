@@ -1,0 +1,31 @@
+{
+  "name": "bkc-workshop-btc",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node index.js",
+    "test-send": "node index.js --send"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AugustoL/blockchain-workshop.git"
+  },
+  "keywords": [
+    "btc",
+    "bitcore"
+  ],
+  "author": "Augusto Lemble <me@augustol.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustoL/blockchain-workshop/issues"
+  },
+  "homepage": "https://github.com/AugustoL/blockchain-workshop",
+  "dependencies": {
+    "bitcore-lib": "^8.3.3",
+    "bitcore-message": "^1.0.4",
+    "blockchain.info": "^2.12.1"
+  }
+}
